@@ -2,7 +2,7 @@ import React from "react";
 import User from "./user";
 import Student from "./Student";
 import Employee from "./Employee";
-import app from "..";
+import Item from "./Item";
 
 function App() {
     const userName ="Raza";
@@ -22,6 +22,7 @@ function App() {
             <User user={userName} />
             <Student student={student}/>
             <Employee data={employee}/>
+            <Item />
         </div>
     )
 }
