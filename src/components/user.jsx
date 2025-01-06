@@ -1,16 +1,12 @@
-import Childuser from "./Childuser";
+import React from 'react';
+import USER from "../components/utils/User.json"
 
-function User ({ user, chuser}) {
-    console.log(user);
-    return (
-        <div className="web">
-            <h1>User - {user}</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, quasi nemo harum nostrum officiis culpa exercitationem sit nobis aut voluptates?</p>
-            <button>Read More</button>
-
-            <Childuser chuser={chuser} />
-        </div>
-    )
+function user() {
+  return (
+    <div>
+        
+    </div>
+  )
 }
 
-export default User;
+export default user

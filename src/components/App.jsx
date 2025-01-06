@@ -3,6 +3,8 @@ import User from "./user";
 import Student from "./Student";
 import Employee from "./Employee";
 import Item from "./Item";
+import Post from "./Post";
+
 
 function App() {
     const userName ="Raza";
@@ -17,12 +19,9 @@ function App() {
 
     return (
         <div className="">
-            <h1>hii...</h1>
-            <p>i am para</p>
-            <User user={userName} />
-            <Student student={student}/>
-            <Employee data={employee}/>
-            <Item />
+            {
+                <><h1>hii...</h1><p>i am para</p><User user={userName} /><Student student={student} /><Employee data={employee} /><Item /><Post /></>
+}
         </div>
     )
 }
