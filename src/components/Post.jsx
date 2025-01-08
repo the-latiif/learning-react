@@ -1,5 +1,5 @@
 import React from 'react';
-import POSTS from "../components/Utils/Post.json"
+import POSTS from "../components/utils/Post.json"
 
 function Post() {
     return (
