@@ -4,10 +4,10 @@ function Counter12() {
     const [count, setcount] = useState(1);
 
     const handleDecrement = () => {
-        setcount((count) = count -1)
+        setcount((count) => count -1)
     }
     const handleIncrement = () => {
-        setcount((count) =count +1)
+        setcount((count) => count +1)
     }
   return (
     <div>Counter12
